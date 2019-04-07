@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/VapaaPerhe/precache-manifest.ac32566ccc575bb1f35da1ee40b613be.js"
+  "/VapaaPerhe/precache-manifest.98b0fa7c7342558c744cb3cd48f44b65.js"
 );
 
 workbox.clientsClaim();

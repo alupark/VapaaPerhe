@@ -1,30 +1,30 @@
 self.__precacheManifest = [
   {
-    "revision": "59cb3ee6e51f1813d8b5",
-    "url": "/VapaaPerhe/static/css/main.70c16a68.chunk.css"
+    "revision": "57eea542754df1f48f40",
+    "url": "/VapaaPerhe/static/css/main.e7ab5cc2.chunk.css"
   },
   {
-    "revision": "59cb3ee6e51f1813d8b5",
-    "url": "/VapaaPerhe/static/js/main.8214dbfd.chunk.js"
+    "revision": "57eea542754df1f48f40",
+    "url": "/VapaaPerhe/static/js/main.cbd99848.chunk.js"
   },
   {
     "revision": "38afa6ce886f5022bafc",
     "url": "/VapaaPerhe/static/js/runtime~main.977a2454.js"
   },
   {
-    "revision": "215af11da53c29fbb9a7",
+    "revision": "dc051037642ab52e0a1e",
     "url": "/VapaaPerhe/static/css/2.717c4ac1.chunk.css"
   },
   {
-    "revision": "215af11da53c29fbb9a7",
-    "url": "/VapaaPerhe/static/js/2.6fd9dd86.chunk.js"
+    "revision": "dc051037642ab52e0a1e",
+    "url": "/VapaaPerhe/static/js/2.26292963.chunk.js"
   },
   {
     "revision": "5d5d9eefa31e5e13a6610d9fa7a283bb",
     "url": "/VapaaPerhe/static/media/logo.5d5d9eef.svg"
   },
   {
-    "revision": "27d091b20c3b9dad7d790ddeda5d455e",
+    "revision": "eeadd2da3d40e43cd46589ce072ea74c",
     "url": "/VapaaPerhe/index.html"
   }
 ];

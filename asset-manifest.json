@@ -1,16 +1,16 @@
 {
-  "main.css": "/VapaaPerhe/static/css/main.70c16a68.chunk.css",
-  "main.js": "/VapaaPerhe/static/js/main.8214dbfd.chunk.js",
-  "main.js.map": "/VapaaPerhe/static/js/main.8214dbfd.chunk.js.map",
+  "main.css": "/VapaaPerhe/static/css/main.e7ab5cc2.chunk.css",
+  "main.js": "/VapaaPerhe/static/js/main.cbd99848.chunk.js",
+  "main.js.map": "/VapaaPerhe/static/js/main.cbd99848.chunk.js.map",
   "runtime~main.js": "/VapaaPerhe/static/js/runtime~main.977a2454.js",
   "runtime~main.js.map": "/VapaaPerhe/static/js/runtime~main.977a2454.js.map",
   "static/css/2.717c4ac1.chunk.css": "/VapaaPerhe/static/css/2.717c4ac1.chunk.css",
-  "static/js/2.6fd9dd86.chunk.js": "/VapaaPerhe/static/js/2.6fd9dd86.chunk.js",
-  "static/js/2.6fd9dd86.chunk.js.map": "/VapaaPerhe/static/js/2.6fd9dd86.chunk.js.map",
+  "static/js/2.26292963.chunk.js": "/VapaaPerhe/static/js/2.26292963.chunk.js",
+  "static/js/2.26292963.chunk.js.map": "/VapaaPerhe/static/js/2.26292963.chunk.js.map",
   "index.html": "/VapaaPerhe/index.html",
-  "precache-manifest.ac32566ccc575bb1f35da1ee40b613be.js": "/VapaaPerhe/precache-manifest.ac32566ccc575bb1f35da1ee40b613be.js",
+  "precache-manifest.98b0fa7c7342558c744cb3cd48f44b65.js": "/VapaaPerhe/precache-manifest.98b0fa7c7342558c744cb3cd48f44b65.js",
   "service-worker.js": "/VapaaPerhe/service-worker.js",
   "static/css/2.717c4ac1.chunk.css.map": "/VapaaPerhe/static/css/2.717c4ac1.chunk.css.map",
-  "static/css/main.70c16a68.chunk.css.map": "/VapaaPerhe/static/css/main.70c16a68.chunk.css.map",
+  "static/css/main.e7ab5cc2.chunk.css.map": "/VapaaPerhe/static/css/main.e7ab5cc2.chunk.css.map",
   "static/media/logo.svg": "/VapaaPerhe/static/media/logo.5d5d9eef.svg"
 }
