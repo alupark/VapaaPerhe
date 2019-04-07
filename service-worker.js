@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/vapaaperhe/precache-manifest.f5b678515d9bb1ebb0484d1c59482c10.js"
+  "/VapaaPerhe/precache-manifest.ac32566ccc575bb1f35da1ee40b613be.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/vapaaperhe/index.html", {
+workbox.routing.registerNavigationRoute("/VapaaPerhe/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
