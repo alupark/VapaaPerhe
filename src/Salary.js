@@ -19,13 +19,14 @@ class Salary extends Component {
 
     return (
       <>
+        {this.props.salary[this.props.target]} €
         <WithTooltip
           min={0}
           max={100000}
           step={1000}
-          defaultValue={this.props.salary}
+          defaultValue={this.props.salary[this.props.target]}
           tipFormatter={value => currencyFormatter.format(value)}
-          onChange={this.props.setSalary} />
+          onChange={v => this.props.setSalary(this.props.target, v)} />
       </>
     );
   }

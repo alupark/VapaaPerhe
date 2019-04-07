@@ -7,15 +7,34 @@ import HighchartsReact from 'highcharts-react-official'
 class Income extends Component {
   render() {
     const options = {
-      title: "FOOBAR",
+      xAxis: {
+        plotLines: [{
+          color: 'red',
+          dashStyle: 'ShortDot',
+          value: this.props.preBaby,
+          width: 1,
+          label: {
+            text: '👶',
+            align: 'left',
+            textAlign: 'center',
+            rotation: '0',
+            verticalAlign: 'top',
+            x: -1,
+            y: 35,
+            style: {
+              fontSize: '300%'
+            }
+          },
+        }]
+      },
       series: [
         {
-          name: "Työtulo",
-          data: this.props.salaryIncome
+          name: "Vain työtulo",
+          data: this.props.cumulativeIncome.salaryIncome
         },
         {
-          name: "Äitiysraha",
-          data: this.props.familyBenefitIncome
+          name: "Vapaa perhe",
+          data: this.props.cumulativeIncome.familyBenefitIncome
         }
       ]
     }
@@ -29,7 +48,10 @@ class Income extends Component {
   }
 }
 
-const mapStateToProps = state => state.cumulativeIncome;
+const mapStateToProps = state => ({
+  cumulativeIncome: state.cumulativeIncome,
+  preBaby: state.preBaby
+});
 
 export default connect(
   mapStateToProps,

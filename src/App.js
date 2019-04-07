@@ -4,13 +4,26 @@ import './App.css';
 
 import Salary from './Salary';
 import Income from './Income';
+import TargetSelector from './TargetSelector';
 
 class App extends Component {
   render() {
     return (
       <div className="app">
-        <Salary />
-        <Income />
+        <h1>Vapaa perhe</h1>
+        <div>
+          <h2>Minä</h2>
+          <Salary target="me" />
+        </div>
+        <div>
+          <h2>Hän</h2>
+          <Salary target="they" />
+        </div>
+        <div>
+          <h2>Tulot</h2>
+          <TargetSelector />
+          <Income />
+        </div>
       </div>
     );
   }

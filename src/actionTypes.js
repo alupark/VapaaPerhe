@@ -1,1 +1,2 @@
 export const SALARY_UPDATED = "SALARY_UPDATED";
+export const TARGET_UPDATED = "TARGET_UPDATED";

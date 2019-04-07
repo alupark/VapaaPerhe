@@ -1,6 +1,11 @@
-import { SALARY_UPDATED } from "./actionTypes";
+import { SALARY_UPDATED, TARGET_UPDATED } from "./actionTypes";
 
-export const setSalary = salary => ({
+export const setSalary = (target, salary) => ({
   type: SALARY_UPDATED,
-  payload: { salary }
+  payload: { target, salary }
+});
+
+export const setTarget = (target) => ({
+  type: TARGET_UPDATED,
+  payload: { target }
 });

@@ -1,0 +1,19 @@
+.target-selector {
+  box-sizing: border-box;
+
+  background-color: rgba(251,226,76, 1.0);
+  height: 3em;
+  border: 0;
+  width: 10em;
+
+  font-weight: bold;
+  font-size: 120%;
+  text-align: center;
+
+  border-bottom: 5px solid transparent;
+}
+
+.target-selector__selected {
+  background-color: rgba(216, 195, 64, 1.0);
+  border-bottom: 5px solid black;
+}
